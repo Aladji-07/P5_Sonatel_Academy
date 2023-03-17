@@ -1,0 +1,33 @@
+p {
+
+background-color: black ;
+color:white;
+background-size: cover;
+
+}
+.col {
+color:blue;
+
+}
+.bloc_1{
+background-color:black ;
+color:white;
+padding: 20px;
+display: inline-block;
+}
+.bloc_2{
+    background-color:black ;
+    color:white;
+    padding: 20px;
+    display: inline-block;
+    }
+    
+
+/* #titre{
+border-top: 3px #6FEC1E double ; 
+border-right:3px #6FEC1E double ;
+border-left:3px #6FEC1E double ;
+border-bottom:3px #6FEC1E double ;
+padding: 20px;
+display: inline-block;
+} */
