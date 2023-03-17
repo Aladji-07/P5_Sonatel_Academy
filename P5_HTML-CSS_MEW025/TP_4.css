@@ -1,0 +1,21 @@
+body{
+background-color: #F1B516 ;
+
+}
+.bloc-1{
+    text-align: center;
+    border:4px black solid;
+    background-color:red;
+    margin:auto;
+    max-width: 50%;
+
+}
+.bloc-2{
+    border:2px black solid;
+    background-color:#CF870B ;
+    margin: 37px;
+    padding: 20px;
+    color: blue;
+
+
+}
