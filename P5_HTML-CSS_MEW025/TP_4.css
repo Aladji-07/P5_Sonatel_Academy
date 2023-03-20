@@ -11,11 +11,24 @@ background-color: #F1B516 ;
 
 }
 .bloc-2{
-    border:2px black solid;
+    border:2px blue solid;
     background-color:#CF870B ;
     margin: 37px;
     padding: 20px;
     color: blue;
-
-
+}
+.bloc-3{
+    background-color:#CF870B ;
+    margin: 37px;
+    padding: 20px;
+    color: blue;
+    font-style: italic;
+}
+.bloc-4{
+    margin:auto;
+}
+.lettre-rouge{
+    color: red;
+    font-size: 25px;
+    margin:auto;
 }
