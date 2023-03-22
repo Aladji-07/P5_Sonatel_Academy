@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.haut div {
+    width: 300;
+    height:350px;
+    background-color:rgba(17, 17, 103, 0.711);
+
+}
+.haut div p{
+    text-align: center;
+    font-size: 150px;
+    color: #fff;
+}
+.haut div h1{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    top: 30px;
+    
+}
+.bloc-milieu{
+    text-align: center;
+    width: 30%;
+    height: 500px;
+    position: relative;
+    left: 507px;
+}
