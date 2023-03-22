@@ -16,10 +16,10 @@ width: 100%;
     margin-bottom: 20px;
     padding: 10px;
 }
-.div{
+/* .div{
     width: 100px;
     height: 100px;
-}
+} */
 .bloc_vert_haut div{
     display: inline-block;
 }
@@ -74,4 +74,41 @@ a:hover{
     font-family: sans-serif;
     font-weight: 900;
     color: #fff;
+}
+.explore{
+    font-size: 23px;
+    width: 170px;
+    height: 50px;
+    border-radius: 6px;
+    background-color:#fff;
+    text-align: center;
+    margin-left: 16px;
+    margin-top:10px;
+}
+.text_milieu{
+    width: 430px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    bottom: 220px; 
+    left: 662px; 
+}
+.parteners{
+    color: #74C69D;
+    font-weight: 900;
+    font-size: 30px;
+}
+.lorem{
+    font-size: 50px;
+    font-weight: 900;
+}
+.lorem_1{
+    font-size: 30px;
+    
+}
+.images img{
+    display: inline-block;
+    margin: 48px;
+    position: relative;
+    bottom: 540px;
 }
