@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(218, 222, 225, 0.895);
+}
+.container {
+    display: flex;
+    width: 70%;
+    text-align: center;
+
+  }
+  
+  .left, .right, .move {
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .left, .right {
+    background-color: #fff;
+    border-radius:20px ;
+  }
+  
+  .move{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  
+  .items p {
+    margin: 5px;
+    padding: 5px;
+    /* border: 1px solid black; */
+    cursor: pointer;
+  }
+  
+  .items p.selected {
+    background-color: blue;
+  }
+  p{
+    font-size: 30px;
+    font-weight: bold;
+  }
+ 
+  
