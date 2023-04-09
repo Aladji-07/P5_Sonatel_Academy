@@ -12,7 +12,7 @@
     color: #fff;
 }
 .success{
-    background-color: green;
+    background-color: violet;
 
 }
 .danger{
@@ -29,17 +29,26 @@
     margin: 20px;
 }
 .notification.vert{
+    text-align: center;
     border-color: green;
 }
 .notification.rouge{
+    text-align: center;
     border-color: red;
+    margin-top: 10px;
 }
 .notification.jaune{
+    text-align: center;
     border-color: orange;
+    margin-top: 20px;
+
 }
 .notification.bleu{
+    text-align: center;
     border-color: aqua;
-}
+    margin-top: 30px;
+
+} 
 
 .notification {
     width: 200px;

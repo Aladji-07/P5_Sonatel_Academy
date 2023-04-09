@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TP_4.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="TP_4.js" defer></script>
+    <title>TP_4</title>
+</head>
+<body>
+    <div id="contener">
+        <h2 class="tete">Generer un mot de pass</h2>
+        <div class="contener_result">
+            <span id="result"></span>
+            <i class='bx bx-copy bx-md' id="modifier" style='color:#ffffff' ></i>
+        </div>
+        <div class="contener_parametres">
+            <label>Generateur de mot de pass</label>
+            <input type="number" id="longeurID" min="2" max="20" value="15">
+        </div>
+        <div class="contener_parametres">
+            <label>Contient des Lettres Majuscules</label>
+            <input type="checkbox" id="lettre_majID" >
+        </div>
+        <div class="contener_parametres">
+            <label>Contient des Lettres Minuscules</label>
+            <input type="checkbox" id="lettre_minID" >
+        </div>
+        <div class="contener_parametres">
+            <label>Contient des Nombres</label>
+            <input type="checkbox" id="nombresID" >
+        </div>
+        <div class="contener_parametres">
+            <label>Contient des Caracteres speciaux</label>
+            <input type="checkbox" id="symbolesID">
+        </div>
+        <div id="generateur">
+            <button id="genererID" disabled> Generer le mot de pass </button>
+        </div>
+
+    </div>
+</body>
+</html>

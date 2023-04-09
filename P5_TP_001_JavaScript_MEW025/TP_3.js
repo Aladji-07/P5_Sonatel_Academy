@@ -28,4 +28,11 @@ function affiche_notification(message,couleur){
     contenerNotif.removeChild(notification);   
     },1000);
 }
+// const elmt= document.querySelector('.notification.vert');
 
+// const nvColor = window.getComputedStyle(succe).backgroundColor;
+
+// const elmtCol= window.getComputedStyle(elmt).borderColor;
+
+// console.log(elmtCol);
+// console.log(elmt);

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2? family= Pacifico & display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-image: url("images.jpeg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+    
+    
+}
+
+.compte{
+    font-family:'Pacifico', cursive;
+    text-align: center;
+    font-size: 70px;
+    color: aliceblue;
+    position: relative;
+    top: 250px;
+    font-weight: 600;
+}
+
+.annee{
+    font-family:'arial';
+    
+    font-size: 250px;
+    color: aliceblue;
+    opacity: 0.3;
+    position:absolute;
+    margin-top: 350px;
+    text-align: center;
+    margin-left: 650px;
+    font-weight: 800;
+}
+.bloc{
+    text-align: center;
+}
+.bloc div {
+    text-align: center;
+    display: inline-block;
+    margin: 35px;
+    position: relative;
+    top: 300px;
+
+
+}
+.bloc p,h1{
+    color:#fff;
+}
+.bloc p{
+    font-size: 75px;
+    font-weight: 700;
+}
+#conteneur{
+    text-align: center;
+}
