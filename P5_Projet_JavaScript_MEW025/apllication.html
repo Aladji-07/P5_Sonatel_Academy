@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion_cours</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=DynaPuff&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="application.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="application.js" defer></script>
+</head>
+<body>
+    <div class="contener">
+       <div class="contener_droit">
+            <div class="contener_droit_haut">
+                <h2 class="planning"> Planning : <span id="matiere">JAVASCRIPT</span></h2>
+                <label class="switch">
+                    <input type="checkbox" class="dark_mode">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="nbre_cours">
+                <span>2 Cours</span>
+            </div>
+            
+            <div class="heures">
+                <p>8h</p>
+                <p>9h</p>
+                <p>10h</p>
+                <p>11h</p>
+                <p>12h</p>
+                <p>13h</p>
+                <p>14h</p>
+                <p>15h</p>
+                <p>16h</p>
+                <p>17h</p>
+            </div>
+            <div class="jours" id="jour_1">
+                <div class="jour_1">
+                    <p>Lundi</p>
+                    <i class='bx bx-plus-medical' style='color:#20da4f' id="plus"  ></i>
+                </div>
+            
+            </div>
+            <div class="jours" id="jour_2">
+                <div class="jour_1">
+                    <p>Mardi</p>
+                    <i class='bx bx-plus-medical' style='color:#20da4f'  ></i>
+                </div>
+            
+            </div>
+            <div class="jours" id="jour_3">
+                <div class="jour_1">
+                    <p>Mercredi</p>
+                    <i class='bx bx-plus-medical' style='color:#20da4f'  ></i>
+                </div>
+                <div class="essaie">
+                    jgj
+                </div>
+            
+            </div>
+            <div class="jours" id="jour_4">
+                <div class="jour_1">
+                    <p>Jeudi</p>
+                    <i class='bx bx-plus-medical' style='color:#20da4f'  ></i>
+                </div>
+            
+            </div>
+            <div class="jours" id="jour_5">
+                <div class="jour_1">
+                    <p>Vendredi</p>
+                    <i class='bx bx-plus-medical' style='color:#20da4f'  ></i>
+                </div>
+            
+            </div>
+            <div class="jours" id="jour_6">
+                <div class="jour_1">
+                    <p>Samedi</p>
+                    <i class='bx bx-plus-medical' style='color:#20da4f'  ></i>
+                </div>
+            
+            </div>
+
+
+       </div>
+        <div class="contener_gauche">
+
+            <input type="search" id="search" placeholder="search...">
+            <div class="onglet" id="enseign">
+                <div class="icon" id="enseignent">
+                    <i class='bx bxs-group bx-md' id="icon_enseign"></i>
+                </div>
+                <div class="effectif">
+                    <h2 class="nombre">6</h2>
+                </div>
+            
+            </div>
+            <div class="onglet" id="salles">
+                <div class="icon" id="salle" >
+                    <i class='bx bx-home bx-md' id="icon_salle"></i>
+                </div>
+                <div class="effectif">
+                    <h2 class="nombre">6</h2>
+                </div>
+            
+            </div>
+            <div class="onglet" id="classes">
+                <div class="icon" id="classe" >
+                    <i class='bx bx-book-reader bx-md'id='icon_classe'></i>
+                </div>
+                <div class="effectif">
+                    <h2 class="nombre">6</h2>
+                </div>
+            
+            </div>
+            <div class="onglet" id="modules">
+                <div class="icon" id="module" >
+                    <i class='bx bxs-trash bx-md' id="icon_module"></i>
+                </div>
+                <div class="effectif">
+                    <h2 class="nombre">6</h2>
+                </div>
+
+            </div>
+
+            <select id="mesListes">
+
+            </select>
+        
+       </div>
+    </div>
+    
+</body>
+</html>
