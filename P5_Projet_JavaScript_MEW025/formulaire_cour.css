@@ -1,0 +1,40 @@
+.contener{
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+    height: 400px;
+    color: #fff;
+    background-color: rgb(57, 61, 61);
+    font-size: 20px;
+  }
+
+.tete{
+
+    background-color: #fff;
+    color: black;
+    width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+    label, select {
+
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+
+.contener{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+  /* input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  } */

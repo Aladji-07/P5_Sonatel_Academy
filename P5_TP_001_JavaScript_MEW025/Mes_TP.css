@@ -32,6 +32,12 @@ a{
     font-size: 25px;
     font-weight: 700;
 }
-a:hover{
+/* a:hover{
     color: black;
+} */
+
+.exo:hover{
+    box-shadow:  22px 22px 44px #6db177,
+             -22px -22px 44px #e2b087;
+
 }

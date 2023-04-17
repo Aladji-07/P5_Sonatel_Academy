@@ -161,7 +161,7 @@ body{
     border: 1px solid rgb(132, 128, 128);
 }
 .jour_1{
-    width: 200px;
+    width: 20%;
     height: 85px;
     background-color: #1f1d1d;
     border-radius: 10px 0px 0px 10px;
@@ -235,9 +235,109 @@ body{
   .slider.round:before {
     border-radius: 50%;
   }
-
-.essaie{
-    width: 300px;
-    height: 80px;
-    background-color: #83c1c7;
+.Lib{
+    color: #fff;
+    font-size: 27px;
+    font-weight: bold;
 }
+.Lib_1{
+    color: #fff;
+}
+.essaie{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+    height: 80px;
+    border-radius:15px;
+    background-color: #113bf2;
+    /* position: relative; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+/* CSS formulaire */
+.contenere{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
+    color: #fff;
+    background-color: rgb(57, 61, 61);
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.tete{
+
+    background-color: #fff;
+    color: black;
+    width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+    label, select {
+
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+
+.contenere{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    display: none;
+}
+
+  /* input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  } */
+
+  #chronogramme_1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+   
+  }
+
+  #chronogramme_2{
+    width: 80%;
+    height: 100%;
+    display: flex;
+   
+  }
+  #chronogramme_3{
+    width: 80%;
+    height: 100%;
+    display: flex;
+   
+  }
+  #chronogramme_4{
+    width: 80%;
+    height: 100%;
+    display: flex;
+   
+  }
+  #chronogramme_5{
+    width: 80%;
+    height: 100%;
+    display: flex;
+   
+  }
+  #chronogramme_6{
+    width: 80%;
+    height: 100%;
+    display: flex;
+   
+  }
+  
